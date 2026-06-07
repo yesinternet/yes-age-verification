@@ -58,10 +58,23 @@ customization, so prefer extending behavior via those hooks rather than editing 
 ### Frontend behavior (`assets/age-verify.js`)
 
 Vanilla JS, no dependencies. Reads `window.yesAgeVerificationConfig` (cookie name, expiry days,
-redirect URL), checks for the existing cookie, and if absent: shows the overlay, traps focus
-inside the modal (basic focus-trap + `Escape`-to-redirect), and sets a first-party
-`SameSite=Lax` cookie when the visitor confirms their age. "No" and `Escape` redirect to the
-configured URL.
+redirect URL, bot user-agent list), and *before* doing anything else checks two early-exit
+conditions: an existing consent cookie, **or** a known search-engine/AI-crawler user agent
+(`isKnownBot()`, matched against `config.bots` — sourced from `bot_user_agents()` /
+`yes_age_verification_bot_user_agents` in the main plugin file). Only if neither applies does it
+show the overlay, trap focus inside the modal (basic focus-trap + `Escape`-to-redirect), and set
+a first-party `SameSite=Lax` cookie when the visitor confirms their age. "No" and `Escape`
+redirect to the configured URL.
+
+**Why bot detection lives here, client-side, instead of in `is_active()`**: gating the popup
+server-side by `$_SERVER['HTTP_USER_AGENT']` would make `is_active()` return different output for
+different visitors on the *same URL* — which breaks under any full-page cache/CDN (Varnish,
+Cloudflare, WP Super Cache, etc.), since whichever visitor's request first populates the cache
+decides what *everyone* gets afterwards. Keeping the decision in the browser (mirroring the
+existing cookie check) means the server always renders byte-identical, fully cacheable
+markup/CSS/JS for every visitor — crawlers and humans alike — and only the in-browser display
+decision differs. Don't "simplify" this back into a server-side `is_active()` check; that would
+reintroduce the cache-correctness bug this design avoids.
 
 ### Admin UI (`admin/settings.php`, `admin/admin.js`)
 
