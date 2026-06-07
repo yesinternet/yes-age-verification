@@ -1,0 +1,235 @@
+# Turkish translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES Yaş Doğrulama"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "Yaş kısıtlamalı ürünler satan web siteleri için hafif, yapılandırılabilir yaş doğrulama açılır penceresi."
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "Mağazamıza hoş geldiniz"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "Web sitemizi ziyaret etmek için, ikamet ettiğiniz ülkede alkol tüketimi için yasal yaşa ulaşmış olmanız gerekir."
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "18 yaşında veya daha büyük müsünüz?"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "Evet, büyüğüm"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "Hayır, değilim"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "Bu web sitesini ziyaret ederek <a href=\"#\">Şartlar ve Koşullar</a>ımızı kabul etmiş olursunuz."
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "Yaş Doğrulama Ayarları"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "Yaş Doğrulama"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "Bu sayfaya erişim izniniz yok."
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "Geçersiz regex deseni kaldırıldı: %s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "Genel"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "Açılır pencereyi etkinleştir"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "Ziyaretçilere yaş doğrulama açılır penceresini göster"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "Kaplama rengi"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "Geçerli herhangi bir CSS rengi — hex, rgb, rgba. Örnek: rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "Çerez süresi (gün)"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "Evet'e tıklayan bir ziyaretçinin kaç gün hatırlanacağı."
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "Yönlendirme URL'si (ziyaretçi Hayır'a tıkladığında)"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "Görünürlük Kuralları"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "Mod"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "Hariç tutma"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "Aşağıda listelenenler dışındaki tüm sayfalarda göster."
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "Dahil etme"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "Yalnızca aşağıda listelenen sayfalarda göster."
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "Aşağıdaki URL istisnaları alanı, moddan bağımsız olarak açılır pencereyi her zaman gizler. Diğer tüm alanlar burada seçilen moda göre yorumlanır."
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "URL istisnaları (her zaman gizli)"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "Açılır pencerenin her zaman gizli olduğu tam URL'ler, her satıra bir tane — örn. Gizlilik Politikası veya Şartlar sayfanız. Moddan bağımsız olarak uygulanır."
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "Yazı kategorileri"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "Kategori arşivlerini ve tek tek yazıları içerir. Alt kategoriler otomatik olarak eşleştirilir."
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "Özel yazı türleri"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "Seçilen yazı türleri için tekil yazıları ve arşiv sayfalarını içerir."
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "%s arşivlerini ve tek tek yazıları içerir. Alt terimler otomatik olarak eşleştirilir."
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "URL yolu deseni (regex)"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "Satır başına bir desen, URL yolu ve sorgu dizesiyle karşılaştırılır. Sınırlayıcıya gerek yoktur. Geçersiz desenler kaydedilirken kaldırılır."
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "Ürün kategorileri"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "Kategori arşivlerini ve tek tek ürünleri içerir. Alt kategoriler otomatik olarak eşleştirilir."
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "Açılır Pencere İçeriği"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "Görsel seç"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "Kaldır"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "Logo genişliği (px)"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "Piksel cinsinden maksimum görüntüleme genişliği. Görselin doğal boyutunu kullanmak için boş bırakın."
+
+#: admin/settings.php
+msgid "Title"
+msgstr "Başlık"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "Gövde metni"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "Soru metni"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "Düğme etiketleri"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "\"Evet\" düğmesi"
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "\"Hayır\" düğmesi"
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "Alt bilgi metni"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "Gizlemek için boş bırakın."
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "Ayarları kaydet"

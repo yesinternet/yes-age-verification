@@ -1,0 +1,235 @@
+# Korean translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES 연령 확인"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "연령 제한 제품을 판매하는 웹사이트를 위한 가볍고 구성 가능한 연령 확인 팝업입니다."
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "저희 매장에 오신 것을 환영합니다"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "저희 웹사이트를 방문하려면 거주 국가에서 법적으로 음주가 허용되는 연령에 도달해야 합니다."
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "만 18세 이상이십니까?"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "예, 그렇습니다"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "아니요, 아닙니다"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "이 웹사이트를 방문하시면 당사의 <a href=\"#\">이용약관</a>에 동의하는 것으로 간주됩니다."
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "연령 확인 설정"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "연령 확인"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "이 페이지에 접근할 권한이 없습니다."
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "잘못된 정규식 패턴이 제거되었습니다: %s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "일반"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "팝업 활성화"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "방문자에게 연령 확인 팝업 표시"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "오버레이 색상"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "유효한 모든 CSS 색상 — hex, rgb, rgba. 예: rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "쿠키 유지 기간(일)"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "\"예\"를 클릭한 방문자를 기억할 일수입니다."
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "리디렉션 URL(\"아니요\"를 클릭했을 때)"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "표시 규칙"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "모드"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "제외"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "아래 나열된 페이지를 제외한 모든 페이지에 표시합니다."
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "포함"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "아래 나열된 페이지에만 표시합니다."
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "아래 URL 예외 필드는 모드와 관계없이 항상 팝업을 숨깁니다. 다른 모든 필드는 여기서 선택한 모드에 따라 해석됩니다."
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "URL 예외(항상 숨김)"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "팝업이 항상 숨겨지는 전체 URL을 한 줄에 하나씩 입력하세요(예: 개인정보처리방침 또는 이용약관 페이지). 모드와 관계없이 적용됩니다."
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "페이지"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "글 카테고리"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "카테고리 아카이브와 개별 글이 포함됩니다. 하위 카테고리는 자동으로 일치됩니다."
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "커스텀 글 타입"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "선택한 글 타입의 개별 글과 아카이브 페이지가 포함됩니다."
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "%s 아카이브와 개별 글이 포함됩니다. 하위 항목은 자동으로 일치됩니다."
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "URL 경로 패턴(정규식)"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "URL 경로 및 쿼리 문자열과 비교할 패턴을 한 줄에 하나씩 입력하세요. 구분 기호는 필요하지 않습니다. 잘못된 패턴은 저장 시 제거됩니다."
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "제품 카테고리"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "카테고리 아카이브와 개별 제품이 포함됩니다. 하위 카테고리는 자동으로 일치됩니다."
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "팝업 콘텐츠"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "로고"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "이미지 선택"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "제거"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "로고 너비(px)"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "최대 표시 너비(픽셀). 이미지의 원래 크기를 사용하려면 비워 두세요."
+
+#: admin/settings.php
+msgid "Title"
+msgstr "제목"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "본문 텍스트"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "질문 텍스트"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "버튼 레이블"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "\"예\" 버튼"
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "\"아니요\" 버튼"
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "바닥글 텍스트"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "숨기려면 비워 두세요."
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "설정 저장"

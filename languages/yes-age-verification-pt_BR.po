@@ -1,0 +1,235 @@
+# Portuguese (Brazil) translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES Verificação de Idade"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "Pop-up leve e configurável de verificação de idade para sites que vendem produtos com restrição de idade."
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "Bem-vindo à nossa loja"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "Para visitar nosso site, você deve ter atingido a idade legal para consumo de álcool em seu país de residência."
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "Você tem 18 anos ou mais?"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "Sim, tenho"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "Não, não tenho"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "Ao visitar este site, você concorda com nossos <a href=\"#\">Termos e Condições</a>."
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "Configurações de Verificação de Idade"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "Verificação de Idade"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "Você não tem permissão para acessar esta página."
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "Padrão de regex inválido removido: %s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "Geral"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "Ativar pop-up"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "Exibir o pop-up de verificação de idade para os visitantes"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "Cor da sobreposição"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "Qualquer cor CSS válida — hex, rgb, rgba. Exemplo: rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "Duração do cookie (dias)"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "Quantos dias lembrar de um visitante que clicou em Sim."
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "URL de redirecionamento (quando o visitante clica em Não)"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "Regras de Visibilidade"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "Modo"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "Exclusão"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "Exibir em todas as páginas, exceto as listadas abaixo."
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "Inclusão"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "Exibir apenas nas páginas listadas abaixo."
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "O campo de exceções de URL abaixo sempre oculta o pop-up, independentemente do modo. Todos os outros campos são interpretados de acordo com o modo selecionado aqui."
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "Exceções de URL (sempre oculto)"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "URLs completas onde o pop-up fica sempre oculto, uma por linha — por exemplo, sua página de Política de Privacidade ou Termos. Aplicado independentemente do modo."
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "Páginas"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "Categorias de posts"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "Inclui arquivos de categorias e posts individuais. As subcategorias são incluídas automaticamente."
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "Tipos de conteúdo personalizados"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "Inclui posts individuais e páginas de arquivo para os tipos de conteúdo selecionados."
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "Inclui arquivos de %s e posts individuais. Os termos filhos são incluídos automaticamente."
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "Padrão de caminho de URL (regex)"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "Um padrão por linha, comparado com o caminho da URL e a string de consulta. Não são necessários delimitadores. Padrões inválidos são removidos ao salvar."
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "Categorias de produtos"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "Inclui arquivos de categorias e produtos individuais. As subcategorias são incluídas automaticamente."
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "Conteúdo do Pop-up"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "Logotipo"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "Escolher imagem"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "Remover"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "Largura do logotipo (px)"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "Largura máxima de exibição em pixels. Deixe em branco para usar o tamanho natural da imagem."
+
+#: admin/settings.php
+msgid "Title"
+msgstr "Título"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "Texto principal"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "Texto da pergunta"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "Rótulos dos botões"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "Botão \"Sim\""
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "Botão \"Não\""
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "Texto do rodapé"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "Deixe em branco para ocultar."
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "Salvar configurações"

@@ -1,0 +1,235 @@
+# Swedish translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES Åldersverifiering"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "Lättviktig, konfigurerbar popup för åldersverifiering för webbplatser som säljer åldersbegränsade produkter."
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "Välkommen till vår butik"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "För att besöka vår webbplats måste du ha uppnått den lagliga åldern för alkoholkonsumtion i ditt hemland."
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "Är du 18 år eller äldre?"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "Ja, det är jag"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "Nej, det är jag inte"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "Genom att besöka den här webbplatsen godkänner du våra <a href=\"#\">Allmänna villkor</a>."
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "Inställningar för Åldersverifiering"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "Åldersverifiering"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "Du har inte behörighet att komma åt den här sidan."
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "Ogiltigt regex-mönster borttaget: %s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "Allmänt"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "Aktivera popup"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "Visa popup för åldersverifiering för besökare"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "Övertäckningsfärg"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "Vilken giltig CSS-färg som helst — hex, rgb, rgba. Exempel: rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "Cookiens varaktighet (dagar)"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "Hur många dagar en besökare som klickat på Ja ska kommas ihåg."
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "Omdirigerings-URL (när besökaren klickar på Nej)"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "Synlighetsregler"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "Läge"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "Uteslutning"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "Visa på alla sidor utom de som listas nedan."
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "Inkludering"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "Visa endast på sidorna som listas nedan."
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "Fältet för URL-undantag nedan döljer alltid popupen oavsett läge. Alla andra fält tolkas enligt läget som valts här."
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "URL-undantag (alltid dolt)"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "Fullständiga webbadresser där popupen alltid är dold, en per rad — t.ex. din sida för integritetspolicy eller villkor. Tillämpas oavsett läge."
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "Sidor"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "Inläggskategorier"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "Inkluderar kategoriarkiv och enskilda inlägg. Underkategorier matchas automatiskt."
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "Anpassade inläggstyper"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "Inkluderar enskilda inlägg och arkivsidor för de valda inläggstyperna."
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "Inkluderar %s-arkiv och enskilda inlägg. Underordnade termer matchas automatiskt."
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "URL-sökvägsmönster (regex)"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "Ett mönster per rad, matchas mot URL-sökvägen och frågesträngen. Inga avgränsare behövs. Ogiltiga mönster tas bort vid sparande."
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "Produktkategorier"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "Inkluderar kategoriarkiv och enskilda produkter. Underkategorier matchas automatiskt."
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "Popup-innehåll"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "Logotyp"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "Välj bild"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "Ta bort"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "Logotypens bredd (px)"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "Maximal visningsbredd i pixlar. Lämna tomt för att använda bildens naturliga storlek."
+
+#: admin/settings.php
+msgid "Title"
+msgstr "Titel"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "Brödtext"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "Frågetext"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "Knappetiketter"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "Knappen \"Ja\""
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "Knappen \"Nej\""
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "Sidfotstext"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "Lämna tomt för att dölja."
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "Spara inställningar"

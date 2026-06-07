@@ -1,0 +1,235 @@
+# Greek translation for YES Age Verification
+# Copyright (C) 2024 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES Επαλήθευση Ηλικίας"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "Ελαφρύ, διαμορφώσιμο αναδυόμενο παράθυρο επαλήθευσης ηλικίας για ιστοτόπους που πωλούν προϊόντα με ηλικιακούς περιορισμούς."
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "Καλώς ήρθατε στο κατάστημά μας"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "Για να επισκεφθείτε τον ιστότοπό μας, πρέπει να έχετε συμπληρώσει τη νόμιμη ηλικία κατανάλωσης αλκοόλ στη χώρα κατοικίας σας."
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "Είστε 18 ετών ή μεγαλύτεροι;"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "Ναι, είμαι"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "Όχι, δεν είμαι"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "Επισκεπτόμενοι αυτόν τον ιστότοπο, συμφωνείτε με τους <a href=\"#\">Όρους &amp; Προϋποθέσεις</a> μας."
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "Ρυθμίσεις Επαλήθευσης Ηλικίας"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "Επαλήθευση Ηλικίας"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "Δεν έχετε άδεια πρόσβασης σε αυτή τη σελίδα."
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "Μη έγκυρο μοτίβο regex αφαιρέθηκε: %s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "Γενικά"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "Ενεργοποίηση αναδυόμενου παραθύρου"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "Εμφάνιση του αναδυόμενου παραθύρου επαλήθευσης ηλικίας στους επισκέπτες"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "Χρώμα επικάλυψης"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "Οποιοδήποτε έγκυρο χρώμα CSS — hex, rgb, rgba. Παράδειγμα: rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "Διάρκεια cookie (ημέρες)"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "Πόσες ημέρες να θυμόμαστε έναν επισκέπτη που έκανε κλικ στο Ναι."
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "URL ανακατεύθυνσης (όταν ο επισκέπτης κάνει κλικ στο Όχι)"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "Κανόνες Εμφάνισης"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "Λειτουργία"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "Εξαίρεση"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "Εμφάνιση σε όλες τις σελίδες εκτός από αυτές που αναφέρονται παρακάτω."
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "Συμπερίληψη"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "Εμφάνιση μόνο στις σελίδες που αναφέρονται παρακάτω."
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "Το πεδίο εξαιρέσεων URL παρακάτω αποκρύπτει πάντα το αναδυόμενο παράθυρο ανεξάρτητα από τη λειτουργία. Όλα τα άλλα πεδία ερμηνεύονται σύμφωνα με τη λειτουργία που επιλέγεται εδώ."
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "Εξαιρέσεις URL (πάντα κρυφό)"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "Πλήρη URL όπου το αναδυόμενο παράθυρο είναι πάντα κρυφό, ένα ανά γραμμή — π.χ. η σελίδα Πολιτικής Απορρήτου ή Όρων Χρήσης. Εφαρμόζεται ανεξάρτητα από τη λειτουργία."
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "Κατηγορίες άρθρων"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "Περιλαμβάνει αρχεία κατηγοριών και μεμονωμένα άρθρα. Οι υποκατηγορίες αντιστοιχίζονται αυτόματα."
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "Προσαρμοσμένοι τύποι δημοσίευσης"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "Περιλαμβάνει μεμονωμένες δημοσιεύσεις και σελίδες αρχείου για τους επιλεγμένους τύπους δημοσίευσης."
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "Περιλαμβάνει αρχεία %s και μεμονωμένες δημοσιεύσεις. Οι θυγατρικοί όροι αντιστοιχίζονται αυτόματα."
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "Μοτίβο διαδρομής URL (regex)"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "Ένα μοτίβο ανά γραμμή, αντιστοιχίζεται με τη διαδρομή URL και τις παραμέτρους. Δεν χρειάζονται οριοθέτες. Μη έγκυρα μοτίβα αφαιρούνται κατά την αποθήκευση."
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "Κατηγορίες προϊόντων"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "Περιλαμβάνει αρχεία κατηγοριών και μεμονωμένα προϊόντα. Οι υποκατηγορίες αντιστοιχίζονται αυτόματα."
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "Περιεχόμενο Αναδυόμενου Παραθύρου"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "Επιλογή εικόνας"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "Κατάργηση"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "Πλάτος λογότυπου (px)"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "Μέγιστο πλάτος εμφάνισης σε pixel. Αφήστε κενό για χρήση του φυσικού μεγέθους εικόνας."
+
+#: admin/settings.php
+msgid "Title"
+msgstr "Τίτλος"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "Κυρίως κείμενο"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "Κείμενο ερώτησης"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "Ετικέτες κουμπιών"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "Κουμπί «Ναι»"
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "Κουμπί «Όχι»"
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "Κείμενο υποσέλιδου"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "Αφήστε κενό για απόκρυψη."
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "Αποθήκευση ρυθμίσεων"

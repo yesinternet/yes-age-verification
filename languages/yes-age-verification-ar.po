@@ -1,0 +1,235 @@
+# Arabic translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES التحقق من العمر"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "نافذة منبثقة خفيفة وقابلة للتخصيص للتحقق من العمر، مخصصة للمواقع التي تبيع منتجات مقيدة بالعمر."
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "مرحبًا بكم في متجرنا"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "لزيارة موقعنا الإلكتروني، يجب أن تكون قد بلغت السن القانونية لاستهلاك الكحول في بلد إقامتك."
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "هل عمرك 18 عامًا أو أكثر؟"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "نعم"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "لا"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "بزيارتك لهذا الموقع، فإنك توافق على <a href=\"#\">الشروط والأحكام</a> الخاصة بنا."
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "إعدادات التحقق من العمر"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "التحقق من العمر"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "ليس لديك إذن للوصول إلى هذه الصفحة."
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "تمت إزالة نمط تعبير عادي غير صالح: %s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "عام"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "تفعيل النافذة المنبثقة"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "إظهار نافذة التحقق من العمر للزوار"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "لون التراكب"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "أي لون CSS صالح — hex أو rgb أو rgba. مثال: rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "مدة ملف تعريف الارتباط (أيام)"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "عدد الأيام لتذكر الزائر الذي نقر على \"نعم\"."
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "رابط إعادة التوجيه (عند نقر الزائر على \"لا\")"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "قواعد الظهور"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "الوضع"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "الاستثناء"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "الإظهار في جميع الصفحات باستثناء المدرجة أدناه."
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "التضمين"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "الإظهار فقط في الصفحات المدرجة أدناه."
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "يقوم حقل استثناءات الروابط أدناه دائمًا بإخفاء النافذة المنبثقة بغض النظر عن الوضع. تُفسَّر جميع الحقول الأخرى وفقًا للوضع المحدد هنا."
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "استثناءات الروابط (مخفية دائمًا)"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "روابط كاملة تكون فيها النافذة المنبثقة مخفية دائمًا، رابط واحد في كل سطر — مثل صفحة سياسة الخصوصية أو الشروط. يُطبَّق بغض النظر عن الوضع."
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "الصفحات"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "تصنيفات المقالات"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "يشمل أرشيفات التصنيفات والمقالات الفردية. يتم مطابقة التصنيفات الفرعية تلقائيًا."
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "أنواع المحتوى المخصصة"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "يشمل المقالات الفردية وصفحات الأرشيف لأنواع المحتوى المحددة."
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "يشمل أرشيفات %s والمقالات الفردية. تتم مطابقة المصطلحات الفرعية تلقائيًا."
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "نمط مسار الرابط (تعبير عادي)"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "نمط واحد في كل سطر، تتم مطابقته مع مسار الرابط وسلسلة الاستعلام. لا حاجة لفواصل. تتم إزالة الأنماط غير الصالحة عند الحفظ."
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "تصنيفات المنتجات"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "يشمل أرشيفات التصنيفات والمنتجات الفردية. يتم مطابقة التصنيفات الفرعية تلقائيًا."
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "محتوى النافذة المنبثقة"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "الشعار"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "اختيار صورة"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "إزالة"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "عرض الشعار (بكسل)"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "أقصى عرض للعرض بالبكسل. اتركه فارغًا لاستخدام الحجم الطبيعي للصورة."
+
+#: admin/settings.php
+msgid "Title"
+msgstr "العنوان"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "النص الأساسي"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "نص السؤال"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "تسميات الأزرار"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "زر \"نعم\""
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "زر \"لا\""
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "نص التذييل"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "اتركه فارغًا للإخفاء."
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "حفظ الإعدادات"

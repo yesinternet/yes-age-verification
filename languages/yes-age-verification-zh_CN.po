@@ -1,0 +1,235 @@
+# Chinese (Simplified) translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES 年龄验证"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "轻量级、可配置的年龄验证弹窗，适用于销售有年龄限制商品的网站。"
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "欢迎光临我们的商店"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "要访问我们的网站，您必须达到您所在国家/地区法定的饮酒年龄。"
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "您年满18周岁了吗？"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "是的"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "不是"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "访问本网站即表示您同意我们的<a href=\"#\">条款与条件</a>。"
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "年龄验证设置"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "年龄验证"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "您没有权限访问此页面。"
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "已移除无效的正则表达式模式：%s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "常规"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "启用弹窗"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "向访客显示年龄验证弹窗"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "遮罩颜色"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "任何有效的 CSS 颜色——hex、rgb、rgba。示例：rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "Cookie 有效期（天）"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "记住点击“是”的访客的天数。"
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "跳转链接（当访客点击“否”时）"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "显示规则"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "模式"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "排除"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "在除以下列出的页面外的所有页面上显示。"
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "包含"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "仅在以下列出的页面上显示。"
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "无论选择哪种模式，下方的 URL 例外字段始终会隐藏弹窗。其他所有字段均根据此处选择的模式进行解析。"
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "URL 例外（始终隐藏）"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "始终隐藏弹窗的完整网址，每行一个——例如您的隐私政策或条款页面。无论模式如何均会应用。"
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "页面"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "文章分类"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "包括分类归档和单篇文章。子分类会自动匹配。"
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "自定义文章类型"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "包括所选文章类型的单篇文章和归档页面。"
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "包括 %s 归档和单篇文章。子级词条会自动匹配。"
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "URL 路径模式（正则表达式）"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "每行一个模式，与 URL 路径和查询字符串进行匹配。无需分隔符。保存时会移除无效模式。"
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "产品分类"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "包括分类归档和单个产品。子分类会自动匹配。"
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "弹窗内容"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "徽标"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "选择图片"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "移除"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "徽标宽度（像素）"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "最大显示宽度（像素）。留空则使用图片的原始尺寸。"
+
+#: admin/settings.php
+msgid "Title"
+msgstr "标题"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "正文"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "问题文字"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "按钮文字"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "“是”按钮"
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "“否”按钮"
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "页脚文字"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "留空则隐藏。"
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "保存设置"

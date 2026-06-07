@@ -1,0 +1,235 @@
+# Japanese translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES 年齢確認"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "年齢制限のある商品を販売するウェブサイト向けの、軽量で設定可能な年齢確認ポップアップ。"
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "当店へようこそ"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "当ウェブサイトをご利用いただくには、お住まいの国の飲酒可能な法定年齢に達している必要があります。"
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "あなたは18歳以上ですか？"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "はい"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "いいえ"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "当ウェブサイトをご利用いただくことで、<a href=\"#\">利用規約</a>に同意したものとみなされます。"
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "年齢確認の設定"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "年齢確認"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "無効な正規表現パターンを削除しました：%s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "一般"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "ポップアップを有効にする"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "訪問者に年齢確認ポップアップを表示する"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "オーバーレイの色"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "有効な CSS カラー（hex、rgb、rgba）。例：rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "Cookie の有効期間（日数）"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "「はい」をクリックした訪問者を何日間記憶するか。"
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "リダイレクト先URL（訪問者が「いいえ」をクリックした場合）"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "表示ルール"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "モード"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "除外"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "以下に挙げるページを除くすべてのページに表示します。"
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "含める"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "以下に挙げるページにのみ表示します。"
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "以下のURL例外フィールドは、モードに関わらず常にポップアップを非表示にします。それ以外のフィールドは、ここで選択したモードに従って解釈されます。"
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "URL例外（常に非表示）"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "ポップアップを常に非表示にする完全なURLを1行に1つずつ入力してください（例：プライバシーポリシーや利用規約のページ）。モードに関わらず適用されます。"
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "固定ページ"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "投稿カテゴリー"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "カテゴリーアーカイブと個別の投稿が含まれます。サブカテゴリーは自動的に一致します。"
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "カスタム投稿タイプ"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "選択した投稿タイプの個別投稿とアーカイブページが含まれます。"
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "%s のアーカイブと個別の投稿が含まれます。子タームは自動的に一致します。"
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "URLパスパターン（正規表現）"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "1行に1つのパターンを入力し、URLのパスとクエリ文字列に対して照合します。区切り文字は不要です。無効なパターンは保存時に削除されます。"
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "商品カテゴリー"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "カテゴリーアーカイブと個別の商品が含まれます。サブカテゴリーは自動的に一致します。"
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "ポップアップの内容"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "ロゴ"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "画像を選択"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "削除"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "ロゴの幅（px）"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "表示する最大幅（ピクセル単位）。空欄の場合は画像本来のサイズを使用します。"
+
+#: admin/settings.php
+msgid "Title"
+msgstr "タイトル"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "本文"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "質問文"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "ボタンのラベル"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "「はい」ボタン"
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "「いいえ」ボタン"
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "フッターテキスト"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "空欄にすると非表示になります。"
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "設定を保存"

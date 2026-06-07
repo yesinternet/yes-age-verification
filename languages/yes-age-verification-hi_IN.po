@@ -1,0 +1,235 @@
+# Hindi translation for YES Age Verification
+# Copyright (C) 2026 YES Agency
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YES Age Verification 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yes-agency/yes-age-verification\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: YES Agency <info@yesagency.gr>\n"
+"Language-Team: Hindi\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit\n"
+"X-Domain: yes-age-verification\n"
+
+#. Plugin Name of the plugin
+msgid "YES Age Verification"
+msgstr "YES आयु सत्यापन"
+
+#. Description of the plugin
+msgid "Lightweight, configurable age verification popup for websites selling age-restricted products."
+msgstr "आयु-प्रतिबंधित उत्पाद बेचने वाली वेबसाइटों के लिए हल्का, कॉन्फ़िगर करने योग्य आयु सत्यापन पॉपअप।"
+
+#: yes-age-verification.php
+msgid "Welcome to our store"
+msgstr "हमारे स्टोर में आपका स्वागत है"
+
+#: yes-age-verification.php
+msgid "To visit our website, you must have reached the legal drinking age in your country of residence."
+msgstr "हमारी वेबसाइट देखने के लिए, आपकी उम्र आपके निवास देश में शराब सेवन की कानूनी आयु तक पहुँच चुकी होनी चाहिए।"
+
+#: yes-age-verification.php
+msgid "Are you 18 years or older?"
+msgstr "क्या आपकी आयु 18 वर्ष या उससे अधिक है?"
+
+#: yes-age-verification.php
+msgid "Yes, I am"
+msgstr "हाँ, मैं हूँ"
+
+#: yes-age-verification.php
+msgid "No, I'm not"
+msgstr "नहीं, मैं नहीं हूँ"
+
+#: yes-age-verification.php
+msgid "By visiting this website, you agree to our <a href=\"#\">Terms &amp; Conditions</a>."
+msgstr "इस वेबसाइट पर जाकर, आप हमारी <a href=\"#\">नियम एवं शर्तों</a> से सहमत होते हैं।"
+
+#: yes-age-verification.php
+msgid "Age Verification Settings"
+msgstr "आयु सत्यापन सेटिंग्स"
+
+#: yes-age-verification.php
+#: admin/settings.php
+msgid "Age Verification"
+msgstr "आयु सत्यापन"
+
+#: yes-age-verification.php
+msgid "You do not have permission to access this page."
+msgstr "आपके पास इस पृष्ठ तक पहुँचने की अनुमति नहीं है।"
+
+#: yes-age-verification.php
+msgid "Invalid regex pattern removed: %s"
+msgstr "अमान्य regex पैटर्न हटाया गया: %s"
+
+#: admin/settings.php
+msgid "General"
+msgstr "सामान्य"
+
+#: admin/settings.php
+msgid "Enable popup"
+msgstr "पॉपअप सक्षम करें"
+
+#: admin/settings.php
+msgid "Show the age verification popup to visitors"
+msgstr "आगंतुकों को आयु सत्यापन पॉपअप दिखाएं"
+
+#: admin/settings.php
+msgid "Overlay colour"
+msgstr "ओवरले रंग"
+
+#: admin/settings.php
+msgid "Any valid CSS colour — hex, rgb, rgba. Example: rgba(0,0,0,0.78)"
+msgstr "कोई भी मान्य CSS रंग — hex, rgb, rgba। उदाहरण: rgba(0,0,0,0.78)"
+
+#: admin/settings.php
+msgid "Cookie duration (days)"
+msgstr "कुकी अवधि (दिन)"
+
+#: admin/settings.php
+msgid "How many days to remember a visitor who clicked Yes."
+msgstr "\"हाँ\" पर क्लिक करने वाले आगंतुक को कितने दिनों तक याद रखा जाए।"
+
+#: admin/settings.php
+msgid "Redirect URL (when visitor clicks No)"
+msgstr "रीडायरेक्ट URL (जब आगंतुक \"नहीं\" पर क्लिक करे)"
+
+#: admin/settings.php
+msgid "Visibility Rules"
+msgstr "दृश्यता नियम"
+
+#: admin/settings.php
+msgid "Mode"
+msgstr "मोड"
+
+#: admin/settings.php
+msgid "Exclusion"
+msgstr "बहिष्करण"
+
+#: admin/settings.php
+msgid "Show on all pages except the ones listed below."
+msgstr "नीचे सूचीबद्ध पृष्ठों को छोड़कर सभी पृष्ठों पर दिखाएं।"
+
+#: admin/settings.php
+msgid "Inclusion"
+msgstr "समावेशन"
+
+#: admin/settings.php
+msgid "Show only on the pages listed below."
+msgstr "केवल नीचे सूचीबद्ध पृष्ठों पर दिखाएं।"
+
+#: admin/settings.php
+msgid "The URL exceptions field below always hides the popup regardless of mode. All other fields are interpreted according to the mode selected here."
+msgstr "नीचे दिया गया URL अपवाद फ़ील्ड मोड की परवाह किए बिना हमेशा पॉपअप को छुपाता है। अन्य सभी फ़ील्ड यहाँ चुने गए मोड के अनुसार समझे जाते हैं।"
+
+#: admin/settings.php
+msgid "URL exceptions (always hidden)"
+msgstr "URL अपवाद (हमेशा छिपा हुआ)"
+
+#: admin/settings.php
+msgid "Full URLs where the popup is always hidden, one per line — e.g. your Privacy Policy or Terms page. Applied regardless of mode."
+msgstr "वे पूर्ण URL जहाँ पॉपअप हमेशा छिपा रहता है, प्रति पंक्ति एक — जैसे आपकी गोपनीयता नीति या नियम पृष्ठ। मोड की परवाह किए बिना लागू होता है।"
+
+#: admin/settings.php
+msgid "Pages"
+msgstr "पृष्ठ"
+
+#: admin/settings.php
+msgid "Post categories"
+msgstr "पोस्ट श्रेणियाँ"
+
+#: admin/settings.php
+msgid "Includes category archives and individual posts. Subcategories are matched automatically."
+msgstr "इसमें श्रेणी संग्रह और व्यक्तिगत पोस्ट शामिल हैं। उप-श्रेणियाँ स्वचालित रूप से मेल खाती हैं।"
+
+#: admin/settings.php
+msgid "Custom post types"
+msgstr "कस्टम पोस्ट प्रकार"
+
+#: admin/settings.php
+msgid "Includes single posts and archive pages for the selected post types."
+msgstr "इसमें चयनित पोस्ट प्रकारों के लिए एकल पोस्ट और संग्रह पृष्ठ शामिल हैं।"
+
+#: admin/settings.php
+msgid "Includes %s archives and individual posts. Child terms are matched automatically."
+msgstr "इसमें %s संग्रह और व्यक्तिगत पोस्ट शामिल हैं। चाइल्ड टर्म स्वचालित रूप से मेल खाते हैं।"
+
+#: admin/settings.php
+msgid "URL path pattern (regex)"
+msgstr "URL पथ पैटर्न (regex)"
+
+#: admin/settings.php
+msgid "One pattern per line, matched against the URL path and query string. No delimiters needed. Invalid patterns are removed on save."
+msgstr "प्रति पंक्ति एक पैटर्न, जिसकी तुलना URL पथ और क्वेरी स्ट्रिंग से की जाती है। डिलिमिटर की आवश्यकता नहीं है। सहेजते समय अमान्य पैटर्न हटा दिए जाते हैं।"
+
+#: admin/settings.php
+msgid "Product categories"
+msgstr "उत्पाद श्रेणियाँ"
+
+#: admin/settings.php
+msgid "Includes category archives and individual products. Subcategories are matched automatically."
+msgstr "इसमें श्रेणी संग्रह और व्यक्तिगत उत्पाद शामिल हैं। उप-श्रेणियाँ स्वचालित रूप से मेल खाती हैं।"
+
+#: admin/settings.php
+msgid "Popup Content"
+msgstr "पॉपअप सामग्री"
+
+#: admin/settings.php
+msgid "Logo"
+msgstr "लोगो"
+
+#: admin/settings.php
+msgid "Choose image"
+msgstr "छवि चुनें"
+
+#: admin/settings.php
+msgid "Remove"
+msgstr "हटाएं"
+
+#: admin/settings.php
+msgid "Logo width (px)"
+msgstr "लोगो की चौड़ाई (px)"
+
+#: admin/settings.php
+msgid "Maximum display width in pixels. Leave blank to use the natural image size."
+msgstr "पिक्सेल में अधिकतम प्रदर्शन चौड़ाई। छवि के मूल आकार का उपयोग करने के लिए खाली छोड़ दें।"
+
+#: admin/settings.php
+msgid "Title"
+msgstr "शीर्षक"
+
+#: admin/settings.php
+msgid "Body text"
+msgstr "मुख्य पाठ"
+
+#: admin/settings.php
+msgid "Question text"
+msgstr "प्रश्न पाठ"
+
+#: admin/settings.php
+msgid "Button labels"
+msgstr "बटन लेबल"
+
+#: admin/settings.php
+msgid "\"Yes\" button"
+msgstr "\"हाँ\" बटन"
+
+#: admin/settings.php
+msgid "\"No\" button"
+msgstr "\"नहीं\" बटन"
+
+#: admin/settings.php
+msgid "Footer text"
+msgstr "फ़ुटर पाठ"
+
+#: admin/settings.php
+msgid "Leave blank to hide."
+msgstr "छिपाने के लिए खाली छोड़ दें।"
+
+#: admin/settings.php
+msgid "Save settings"
+msgstr "सेटिंग्स सहेजें"
